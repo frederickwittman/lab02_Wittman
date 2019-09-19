@@ -1,14 +1,13 @@
 function fibonacci(seriesLength) {
 
 // Invariant: The first seriesLength - 1 elements of 
-// the Fibonacci series are stored in the array
+// the Fibonacci series are stored sequentially in the array
 // fibonacci(seriesLength - 1).  (This is not true for
 // the special case where seriesLength == 2.  For 
 // each value of seriesLength for which there is a 
 // recursive function call and for seriesLength = 1, 
 // however, the invariant holds.)
 
-currIndex = seriesLength - 1;
 array = []
 
 if (seriesLength == 1) {
